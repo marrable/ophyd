@@ -356,7 +356,7 @@ _type_map = {
     "number": (float, np.floating),
     "array": (np.ndarray, list, tuple),
     "string": (str,),
-    "integer": (int, np.integer),
+    "number": (int, np.integer),
 }
 
 
