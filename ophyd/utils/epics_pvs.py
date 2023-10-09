@@ -353,10 +353,9 @@ def _compare_maybe_enum(a, b, enums, atol, rtol):
 
 
 _type_map = {
-    "number": (float, np.floating),
+    "number": (float, np.floating, int, np.integer),
     "array": (np.ndarray, list, tuple),
     "string": (str,),
-    "number": (int, np.integer),
 }
 
 
